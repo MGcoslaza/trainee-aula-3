@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <title>Botão</title>
+  </head>
+  <body>
+      <img src="https://marketingdeconteudo.com/wp-content/uploads/2017/01/formatos-de-imagem-2.jpg" id="imagem">
+    <button type="button" id="button">Clique aqui</button>
+    <script>
+    document.getElementById ("button").addEventListener("click", aparecerImagem);
+    function aparecerImagem(){
+      if(document.getElementById("imagem").style.display=="none"){
+        document.getElementById("imagem").style.display="inline-block";
+      }
+      else{
+        document.getElementById("imagem").style.display="none";
+      }
+    }
+    </script>
+  </body>
+</html>
